@@ -9,7 +9,10 @@
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
   }
-  
+  #container:hover {
+    color: blueviolet;
+    background-color: blueviolet;
+  }
   .grid-item {
     padding: 1em;
     border: 1px solid #ddd;
